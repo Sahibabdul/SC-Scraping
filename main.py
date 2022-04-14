@@ -13,18 +13,12 @@ logging.basicConfig(filename='debug.log', format='%(levelname)s | %(asctime)s:%(
 
 #Analyze Config
 #Base URL atm it only works for this website but the Code could be adapted to other sites
-base_url = "https://www.volksblatt.li/Leserbriefe"
+base_url = "https://www.luzernerzeitung.ch/meinung/leserbriefe/Id."
 
-response = urlopen(base_url)
-html = response.read()
-html_string = html.decode("utf-8")
-soup = BeautifulSoup(html_string, features="html.parser")
-base_id = str(soup.find(id="body_repLeserbriefe_aLink_0")).split("/")[2]
-print(base_id)
 
 #Bounds for Letters to analyze
-amount_of_letters = int(base_id)
-lower_bound = 693552
+amount_of_letters = 2276497
+lower_bound = 0
 print("starting now")
 logging.info("Upper bound:" +str(amount_of_letters)+" Lower bound:"+str(lower_bound))
 list_of_letters=[]

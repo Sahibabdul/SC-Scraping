@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 import logging
 
 class Leserbrief:
-    url = "https://www.volksblatt.li/Leserbriefe/"
+    url = "https://www.luzernerzeitung.ch/meinung/leserbriefe/Id."
 
 
     def __init__(self, id):
