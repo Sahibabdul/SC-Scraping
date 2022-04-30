@@ -1,0 +1,718 @@
+INFO | 2022-04-14 16:07:01,028:Upper bound:2276497 Lower bound:0
+INFO | 2022-04-14 16:07:01,029:Newest Letter id: 2276497
+INFO | 2022-04-14 16:07:32,622:Upper bound:2276497 Lower bound:0
+INFO | 2022-04-14 16:07:32,622:Newest Letter id: 2276497
+DEBUG | 2022-04-14 16:07:32,854:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:32,854:Letter ID found:2276497 | Text: body_divText
+DEBUG | 2022-04-14 16:07:33,266:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:33,267:Letter ID found:2276496 | Text: body_divText
+DEBUG | 2022-04-14 16:07:33,578:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:33,578:Letter ID found:2276495 | Text: body_divText
+DEBUG | 2022-04-14 16:07:34,291:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:34,292:Letter ID found:2276494 | Text: body_divText
+DEBUG | 2022-04-14 16:07:34,630:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:34,630:Letter ID found:2276493 | Text: body_divText
+DEBUG | 2022-04-14 16:07:35,092:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:35,092:Letter ID found:2276492 | Text: body_divText
+DEBUG | 2022-04-14 16:07:35,437:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:35,438:Letter ID found:2276491 | Text: body_divText
+DEBUG | 2022-04-14 16:07:35,782:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:35,782:Letter ID found:2276490 | Text: body_divText
+DEBUG | 2022-04-14 16:07:36,350:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:36,350:Letter ID found:2276489 | Text: body_divText
+DEBUG | 2022-04-14 16:07:36,814:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:36,814:Letter ID found:2276488 | Text: body_divText
+DEBUG | 2022-04-14 16:07:37,164:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:37,164:Letter ID found:2276487 | Text: body_divText
+DEBUG | 2022-04-14 16:07:37,516:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:37,516:Letter ID found:2276486 | Text: body_divText
+DEBUG | 2022-04-14 16:07:37,934:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:37,934:Letter ID found:2276485 | Text: body_divText
+DEBUG | 2022-04-14 16:07:38,309:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:38,309:Letter ID found:2276484 | Text: body_divText
+DEBUG | 2022-04-14 16:07:38,844:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:38,844:Letter ID found:2276483 | Text: body_divText
+DEBUG | 2022-04-14 16:07:39,284:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:39,284:Letter ID found:2276482 | Text: body_divText
+DEBUG | 2022-04-14 16:07:39,648:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:39,648:Letter ID found:2276481 | Text: body_divText
+DEBUG | 2022-04-14 16:07:40,100:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:40,100:Letter ID found:2276480 | Text: body_divText
+DEBUG | 2022-04-14 16:07:40,502:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:40,502:Letter ID found:2276479 | Text: body_divText
+DEBUG | 2022-04-14 16:07:41,127:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:41,127:Letter ID found:2276478 | Text: body_divText
+DEBUG | 2022-04-14 16:07:41,470:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:41,471:Letter ID found:2276477 | Text: body_divText
+DEBUG | 2022-04-14 16:07:42,074:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:42,074:Letter ID found:2276476 | Text: body_divText
+DEBUG | 2022-04-14 16:07:42,480:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:42,480:Letter ID found:2276475 | Text: body_divText
+DEBUG | 2022-04-14 16:07:42,868:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:42,868:Letter ID found:2276474 | Text: body_divText
+DEBUG | 2022-04-14 16:07:43,228:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:43,229:Letter ID found:2276473 | Text: body_divText
+DEBUG | 2022-04-14 16:07:43,546:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:43,546:Letter ID found:2276472 | Text: body_divText
+DEBUG | 2022-04-14 16:07:43,880:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:43,880:Letter ID found:2276471 | Text: body_divText
+DEBUG | 2022-04-14 16:07:44,241:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:44,242:Letter ID found:2276470 | Text: body_divText
+DEBUG | 2022-04-14 16:07:45,018:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:45,018:Letter ID found:2276469 | Text: body_divText
+DEBUG | 2022-04-14 16:07:45,378:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:45,379:Letter ID found:2276468 | Text: body_divText
+DEBUG | 2022-04-14 16:07:45,763:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:45,764:Letter ID found:2276467 | Text: body_divText
+DEBUG | 2022-04-14 16:07:46,083:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:46,084:Letter ID found:2276466 | Text: body_divText
+DEBUG | 2022-04-14 16:07:46,535:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:46,535:Letter ID found:2276465 | Text: body_divText
+DEBUG | 2022-04-14 16:07:47,016:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:47,016:Letter ID found:2276464 | Text: body_divText
+DEBUG | 2022-04-14 16:07:47,360:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:47,361:Letter ID found:2276463 | Text: body_divText
+DEBUG | 2022-04-14 16:07:47,743:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:47,743:Letter ID found:2276462 | Text: body_divText
+DEBUG | 2022-04-14 16:07:48,175:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:48,175:Letter ID found:2276461 | Text: body_divText
+DEBUG | 2022-04-14 16:07:48,519:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:48,520:Letter ID found:2276460 | Text: body_divText
+DEBUG | 2022-04-14 16:07:48,854:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:48,854:Letter ID found:2276459 | Text: body_divText
+DEBUG | 2022-04-14 16:07:49,239:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:49,239:Letter ID found:2276458 | Text: body_divText
+DEBUG | 2022-04-14 16:07:49,832:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:49,833:Letter ID found:2276457 | Text: body_divText
+DEBUG | 2022-04-14 16:07:50,182:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:50,182:Letter ID found:2276456 | Text: body_divText
+DEBUG | 2022-04-14 16:07:50,536:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:50,536:Letter ID found:2276455 | Text: body_divText
+DEBUG | 2022-04-14 16:07:51,241:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:51,241:Letter ID found:2276454 | Text: body_divText
+DEBUG | 2022-04-14 16:07:51,892:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:51,892:Letter ID found:2276453 | Text: body_divText
+DEBUG | 2022-04-14 16:07:52,243:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:52,243:Letter ID found:2276452 | Text: body_divText
+DEBUG | 2022-04-14 16:07:52,832:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:52,833:Letter ID found:2276451 | Text: body_divText
+DEBUG | 2022-04-14 16:07:53,242:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:53,242:Letter ID found:2276450 | Text: body_divText
+DEBUG | 2022-04-14 16:07:53,597:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:53,598:Letter ID found:2276449 | Text: body_divText
+DEBUG | 2022-04-14 16:07:54,092:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:54,092:Letter ID found:2276448 | Text: body_divText
+DEBUG | 2022-04-14 16:07:54,692:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:54,692:Letter ID found:2276447 | Text: body_divText
+DEBUG | 2022-04-14 16:07:55,390:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:55,391:Letter ID found:2276446 | Text: body_divText
+DEBUG | 2022-04-14 16:07:55,732:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:55,732:Letter ID found:2276445 | Text: body_divText
+DEBUG | 2022-04-14 16:07:56,072:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:56,072:Letter ID found:2276444 | Text: body_divText
+DEBUG | 2022-04-14 16:07:56,450:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:56,450:Letter ID found:2276443 | Text: body_divText
+DEBUG | 2022-04-14 16:07:57,131:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:57,132:Letter ID found:2276442 | Text: body_divText
+DEBUG | 2022-04-14 16:07:57,525:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:57,525:Letter ID found:2276441 | Text: body_divText
+DEBUG | 2022-04-14 16:07:57,893:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:57,893:Letter ID found:2276440 | Text: body_divText
+DEBUG | 2022-04-14 16:07:58,328:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:58,329:Letter ID found:2276439 | Text: body_divText
+DEBUG | 2022-04-14 16:07:58,936:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:58,936:Letter ID found:2276438 | Text: body_divText
+DEBUG | 2022-04-14 16:07:59,644:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:59,644:Letter ID found:2276437 | Text: body_divText
+DEBUG | 2022-04-14 16:07:59,991:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:07:59,991:Letter ID found:2276436 | Text: body_divText
+DEBUG | 2022-04-14 16:08:00,504:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:00,504:Letter ID found:2276435 | Text: body_divText
+DEBUG | 2022-04-14 16:08:01,024:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:01,024:Letter ID found:2276434 | Text: body_divText
+DEBUG | 2022-04-14 16:08:01,660:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:01,660:Letter ID found:2276433 | Text: body_divText
+DEBUG | 2022-04-14 16:08:02,169:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:02,169:Letter ID found:2276432 | Text: body_divText
+DEBUG | 2022-04-14 16:08:02,506:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:02,507:Letter ID found:2276431 | Text: body_divText
+DEBUG | 2022-04-14 16:08:03,797:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:03,797:Letter ID found:2276430 | Text: body_divText
+DEBUG | 2022-04-14 16:08:04,230:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:04,231:Letter ID found:2276429 | Text: body_divText
+DEBUG | 2022-04-14 16:08:05,258:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:05,258:Letter ID found:2276428 | Text: body_divText
+DEBUG | 2022-04-14 16:08:05,610:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:05,610:Letter ID found:2276427 | Text: body_divText
+DEBUG | 2022-04-14 16:08:06,264:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:06,264:Letter ID found:2276426 | Text: body_divText
+DEBUG | 2022-04-14 16:08:06,625:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:06,626:Letter ID found:2276425 | Text: body_divText
+DEBUG | 2022-04-14 16:08:06,962:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:06,963:Letter ID found:2276424 | Text: body_divText
+DEBUG | 2022-04-14 16:08:07,390:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:07,390:Letter ID found:2276423 | Text: body_divText
+DEBUG | 2022-04-14 16:08:07,782:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:07,782:Letter ID found:2276422 | Text: body_divText
+DEBUG | 2022-04-14 16:08:08,132:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:08,132:Letter ID found:2276421 | Text: body_divText
+DEBUG | 2022-04-14 16:08:08,462:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:08,462:Letter ID found:2276420 | Text: body_divText
+DEBUG | 2022-04-14 16:08:08,816:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:08,817:Letter ID found:2276419 | Text: body_divText
+DEBUG | 2022-04-14 16:08:09,424:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:09,425:Letter ID found:2276418 | Text: body_divText
+DEBUG | 2022-04-14 16:08:10,331:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:10,331:Letter ID found:2276417 | Text: body_divText
+DEBUG | 2022-04-14 16:08:10,654:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:10,655:Letter ID found:2276416 | Text: body_divText
+DEBUG | 2022-04-14 16:08:11,051:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:11,051:Letter ID found:2276415 | Text: body_divText
+DEBUG | 2022-04-14 16:08:11,409:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:11,409:Letter ID found:2276414 | Text: body_divText
+DEBUG | 2022-04-14 16:08:12,075:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:12,075:Letter ID found:2276413 | Text: body_divText
+DEBUG | 2022-04-14 16:08:12,490:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:12,490:Letter ID found:2276412 | Text: body_divText
+DEBUG | 2022-04-14 16:08:12,937:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:12,937:Letter ID found:2276411 | Text: body_divText
+DEBUG | 2022-04-14 16:08:13,320:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:13,320:Letter ID found:2276410 | Text: body_divText
+DEBUG | 2022-04-14 16:08:13,924:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:13,924:Letter ID found:2276409 | Text: body_divText
+DEBUG | 2022-04-14 16:08:14,282:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:14,282:Letter ID found:2276408 | Text: body_divText
+DEBUG | 2022-04-14 16:08:14,622:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:14,622:Letter ID found:2276407 | Text: body_divText
+DEBUG | 2022-04-14 16:08:15,120:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:15,120:Letter ID found:2276406 | Text: body_divText
+DEBUG | 2022-04-14 16:08:16,414:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:16,414:Letter ID found:2276405 | Text: body_divText
+DEBUG | 2022-04-14 16:08:16,812:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:16,812:Letter ID found:2276404 | Text: body_divText
+DEBUG | 2022-04-14 16:08:17,143:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:17,143:Letter ID found:2276403 | Text: body_divText
+DEBUG | 2022-04-14 16:08:17,534:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:17,534:Letter ID found:2276402 | Text: body_divText
+DEBUG | 2022-04-14 16:08:18,057:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:18,057:Letter ID found:2276401 | Text: body_divText
+DEBUG | 2022-04-14 16:08:18,895:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:18,895:Letter ID found:2276400 | Text: body_divText
+DEBUG | 2022-04-14 16:08:19,284:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:19,284:Letter ID found:2276399 | Text: body_divText
+DEBUG | 2022-04-14 16:08:19,705:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:19,705:Letter ID found:2276398 | Text: body_divText
+DEBUG | 2022-04-14 16:08:20,396:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:20,397:Letter ID found:2276397 | Text: body_divText
+DEBUG | 2022-04-14 16:08:20,872:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:20,872:Letter ID found:2276396 | Text: body_divText
+DEBUG | 2022-04-14 16:08:22,286:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:22,286:Letter ID found:2276395 | Text: body_divText
+DEBUG | 2022-04-14 16:08:22,687:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:22,687:Letter ID found:2276394 | Text: body_divText
+DEBUG | 2022-04-14 16:08:23,097:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:23,097:Letter ID found:2276393 | Text: body_divText
+DEBUG | 2022-04-14 16:08:23,494:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:23,494:Letter ID found:2276392 | Text: body_divText
+DEBUG | 2022-04-14 16:08:23,856:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:23,856:Letter ID found:2276391 | Text: body_divText
+DEBUG | 2022-04-14 16:08:24,242:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:24,242:Letter ID found:2276390 | Text: body_divText
+DEBUG | 2022-04-14 16:08:24,582:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:24,582:Letter ID found:2276389 | Text: body_divText
+DEBUG | 2022-04-14 16:08:25,164:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:25,164:Letter ID found:2276388 | Text: body_divText
+DEBUG | 2022-04-14 16:08:25,582:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:25,583:Letter ID found:2276387 | Text: body_divText
+DEBUG | 2022-04-14 16:08:25,948:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:25,949:Letter ID found:2276386 | Text: body_divText
+DEBUG | 2022-04-14 16:08:26,581:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:26,581:Letter ID found:2276385 | Text: body_divText
+DEBUG | 2022-04-14 16:08:26,906:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:26,907:Letter ID found:2276384 | Text: body_divText
+DEBUG | 2022-04-14 16:08:27,257:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:27,257:Letter ID found:2276383 | Text: body_divText
+DEBUG | 2022-04-14 16:08:27,631:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:27,632:Letter ID found:2276382 | Text: body_divText
+DEBUG | 2022-04-14 16:08:27,983:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:27,983:Letter ID found:2276381 | Text: body_divText
+DEBUG | 2022-04-14 16:08:28,335:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:28,335:Letter ID found:2276380 | Text: body_divText
+DEBUG | 2022-04-14 16:08:28,731:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:28,731:Letter ID found:2276379 | Text: body_divText
+DEBUG | 2022-04-14 16:08:29,069:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:29,069:Letter ID found:2276378 | Text: body_divText
+DEBUG | 2022-04-14 16:08:29,848:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:29,848:Letter ID found:2276377 | Text: body_divText
+DEBUG | 2022-04-14 16:08:30,714:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:30,714:Letter ID found:2276376 | Text: body_divText
+DEBUG | 2022-04-14 16:08:31,048:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:31,048:Letter ID found:2276375 | Text: body_divText
+DEBUG | 2022-04-14 16:08:31,515:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:31,515:Letter ID found:2276374 | Text: body_divText
+DEBUG | 2022-04-14 16:08:31,968:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:31,968:Letter ID found:2276373 | Text: body_divText
+DEBUG | 2022-04-14 16:08:32,295:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:32,295:Letter ID found:2276372 | Text: body_divText
+DEBUG | 2022-04-14 16:08:32,682:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:32,682:Letter ID found:2276371 | Text: body_divText
+DEBUG | 2022-04-14 16:08:33,139:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:33,139:Letter ID found:2276370 | Text: body_divText
+DEBUG | 2022-04-14 16:08:33,599:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:33,599:Letter ID found:2276369 | Text: body_divText
+DEBUG | 2022-04-14 16:08:33,932:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:33,932:Letter ID found:2276368 | Text: body_divText
+DEBUG | 2022-04-14 16:08:34,727:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:34,727:Letter ID found:2276367 | Text: body_divText
+DEBUG | 2022-04-14 16:08:35,126:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:35,126:Letter ID found:2276366 | Text: body_divText
+DEBUG | 2022-04-14 16:08:35,562:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:35,562:Letter ID found:2276365 | Text: body_divText
+DEBUG | 2022-04-14 16:08:35,915:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:35,915:Letter ID found:2276364 | Text: body_divText
+DEBUG | 2022-04-14 16:08:36,404:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:36,404:Letter ID found:2276363 | Text: body_divText
+DEBUG | 2022-04-14 16:08:37,000:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:37,000:Letter ID found:2276362 | Text: body_divText
+DEBUG | 2022-04-14 16:08:37,462:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:37,462:Letter ID found:2276361 | Text: body_divText
+DEBUG | 2022-04-14 16:08:37,791:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:37,791:Letter ID found:2276360 | Text: body_divText
+DEBUG | 2022-04-14 16:08:38,354:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:38,355:Letter ID found:2276359 | Text: body_divText
+DEBUG | 2022-04-14 16:08:39,515:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:39,515:Letter ID found:2276358 | Text: body_divText
+DEBUG | 2022-04-14 16:08:40,183:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:40,183:Letter ID found:2276357 | Text: body_divText
+DEBUG | 2022-04-14 16:08:40,930:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:40,930:Letter ID found:2276356 | Text: body_divText
+DEBUG | 2022-04-14 16:08:41,253:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:41,253:Letter ID found:2276355 | Text: body_divText
+DEBUG | 2022-04-14 16:08:41,625:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:41,625:Letter ID found:2276354 | Text: body_divText
+DEBUG | 2022-04-14 16:08:42,106:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:42,106:Letter ID found:2276353 | Text: body_divText
+DEBUG | 2022-04-14 16:08:42,503:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:42,503:Letter ID found:2276352 | Text: body_divText
+DEBUG | 2022-04-14 16:08:42,843:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:42,843:Letter ID found:2276351 | Text: body_divText
+DEBUG | 2022-04-14 16:08:43,203:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:43,203:Letter ID found:2276350 | Text: body_divText
+DEBUG | 2022-04-14 16:08:43,617:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:43,617:Letter ID found:2276349 | Text: body_divText
+DEBUG | 2022-04-14 16:08:44,202:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:44,202:Letter ID found:2276348 | Text: body_divText
+DEBUG | 2022-04-14 16:08:44,517:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:44,517:Letter ID found:2276347 | Text: body_divText
+DEBUG | 2022-04-14 16:08:44,892:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:44,893:Letter ID found:2276346 | Text: body_divText
+DEBUG | 2022-04-14 16:08:45,800:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:45,800:Letter ID found:2276345 | Text: body_divText
+DEBUG | 2022-04-14 16:08:46,203:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:46,204:Letter ID found:2276344 | Text: body_divText
+DEBUG | 2022-04-14 16:08:46,554:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:46,554:Letter ID found:2276343 | Text: body_divText
+DEBUG | 2022-04-14 16:08:46,923:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:46,923:Letter ID found:2276342 | Text: body_divText
+DEBUG | 2022-04-14 16:08:47,268:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:47,268:Letter ID found:2276341 | Text: body_divText
+DEBUG | 2022-04-14 16:08:47,629:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:47,629:Letter ID found:2276340 | Text: body_divText
+DEBUG | 2022-04-14 16:08:48,924:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:48,924:Letter ID found:2276339 | Text: body_divText
+DEBUG | 2022-04-14 16:08:49,334:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:49,334:Letter ID found:2276338 | Text: body_divText
+DEBUG | 2022-04-14 16:08:49,965:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:49,965:Letter ID found:2276337 | Text: body_divText
+DEBUG | 2022-04-14 16:08:50,291:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:50,291:Letter ID found:2276336 | Text: body_divText
+DEBUG | 2022-04-14 16:08:50,783:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:50,783:Letter ID found:2276335 | Text: body_divText
+DEBUG | 2022-04-14 16:08:51,195:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:51,195:Letter ID found:2276334 | Text: body_divText
+DEBUG | 2022-04-14 16:08:51,738:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:51,738:Letter ID found:2276333 | Text: body_divText
+DEBUG | 2022-04-14 16:08:52,397:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:52,398:Letter ID found:2276332 | Text: body_divText
+DEBUG | 2022-04-14 16:08:52,717:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:52,717:Letter ID found:2276331 | Text: body_divText
+DEBUG | 2022-04-14 16:08:53,069:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:53,069:Letter ID found:2276330 | Text: body_divText
+DEBUG | 2022-04-14 16:08:53,463:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:53,463:Letter ID found:2276329 | Text: body_divText
+DEBUG | 2022-04-14 16:08:54,108:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:54,108:Letter ID found:2276328 | Text: body_divText
+DEBUG | 2022-04-14 16:08:54,447:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:54,447:Letter ID found:2276327 | Text: body_divText
+DEBUG | 2022-04-14 16:08:54,890:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:54,890:Letter ID found:2276326 | Text: body_divText
+DEBUG | 2022-04-14 16:08:55,766:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:55,767:Letter ID found:2276325 | Text: body_divText
+DEBUG | 2022-04-14 16:08:56,531:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:56,531:Letter ID found:2276324 | Text: body_divText
+DEBUG | 2022-04-14 16:08:57,211:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:57,212:Letter ID found:2276323 | Text: body_divText
+DEBUG | 2022-04-14 16:08:57,809:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:57,809:Letter ID found:2276322 | Text: body_divText
+DEBUG | 2022-04-14 16:08:58,208:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:58,208:Letter ID found:2276321 | Text: body_divText
+DEBUG | 2022-04-14 16:08:58,663:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:58,663:Letter ID found:2276320 | Text: body_divText
+DEBUG | 2022-04-14 16:08:59,158:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:59,158:Letter ID found:2276319 | Text: body_divText
+DEBUG | 2022-04-14 16:08:59,714:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:08:59,714:Letter ID found:2276318 | Text: body_divText
+DEBUG | 2022-04-14 16:09:00,099:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:00,099:Letter ID found:2276317 | Text: body_divText
+DEBUG | 2022-04-14 16:09:00,440:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:00,440:Letter ID found:2276316 | Text: body_divText
+DEBUG | 2022-04-14 16:09:00,977:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:00,977:Letter ID found:2276315 | Text: body_divText
+DEBUG | 2022-04-14 16:09:01,637:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:01,637:Letter ID found:2276314 | Text: body_divText
+DEBUG | 2022-04-14 16:09:02,128:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:02,128:Letter ID found:2276313 | Text: body_divText
+DEBUG | 2022-04-14 16:09:02,739:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:02,740:Letter ID found:2276312 | Text: body_divText
+DEBUG | 2022-04-14 16:09:03,117:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:03,117:Letter ID found:2276311 | Text: body_divText
+DEBUG | 2022-04-14 16:09:03,617:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:03,617:Letter ID found:2276310 | Text: body_divText
+DEBUG | 2022-04-14 16:09:03,973:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:03,973:Letter ID found:2276309 | Text: body_divText
+DEBUG | 2022-04-14 16:09:04,362:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:04,362:Letter ID found:2276308 | Text: body_divText
+DEBUG | 2022-04-14 16:09:05,134:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:05,134:Letter ID found:2276307 | Text: body_divText
+DEBUG | 2022-04-14 16:09:05,903:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:05,903:Letter ID found:2276306 | Text: body_divText
+DEBUG | 2022-04-14 16:09:06,804:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:06,804:Letter ID found:2276305 | Text: body_divText
+DEBUG | 2022-04-14 16:09:07,452:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:07,452:Letter ID found:2276304 | Text: body_divText
+DEBUG | 2022-04-14 16:09:09,480:Letter not available at: ['2276303'] | did not get any text
+INFO | 2022-04-14 16:09:09,480:Letter ID found:2276302 | Text: body_divText
+DEBUG | 2022-04-14 16:09:10,110:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:10,110:Letter ID found:2276301 | Text: body_divText
+DEBUG | 2022-04-14 16:09:10,507:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:10,507:Letter ID found:2276300 | Text: body_divText
+DEBUG | 2022-04-14 16:09:11,087:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:11,087:Letter ID found:2276299 | Text: body_divText
+DEBUG | 2022-04-14 16:09:11,515:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:11,515:Letter ID found:2276298 | Text: body_divText
+DEBUG | 2022-04-14 16:09:11,849:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:11,849:Letter ID found:2276297 | Text: body_divText
+DEBUG | 2022-04-14 16:09:12,247:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:12,248:Letter ID found:2276296 | Text: body_divText
+DEBUG | 2022-04-14 16:09:12,621:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:12,622:Letter ID found:2276295 | Text: body_divText
+DEBUG | 2022-04-14 16:09:13,007:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:13,007:Letter ID found:2276294 | Text: body_divText
+DEBUG | 2022-04-14 16:09:13,441:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:13,442:Letter ID found:2276293 | Text: body_divText
+DEBUG | 2022-04-14 16:09:14,687:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:14,687:Letter ID found:2276292 | Text: body_divText
+DEBUG | 2022-04-14 16:09:15,057:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:15,057:Letter ID found:2276291 | Text: body_divText
+DEBUG | 2022-04-14 16:09:15,409:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:15,409:Letter ID found:2276290 | Text: body_divText
+DEBUG | 2022-04-14 16:09:15,793:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:15,793:Letter ID found:2276289 | Text: body_divText
+DEBUG | 2022-04-14 16:09:16,171:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:16,172:Letter ID found:2276288 | Text: body_divText
+DEBUG | 2022-04-14 16:09:16,710:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:16,710:Letter ID found:2276287 | Text: body_divText
+DEBUG | 2022-04-14 16:09:17,205:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:17,205:Letter ID found:2276286 | Text: body_divText
+DEBUG | 2022-04-14 16:09:17,983:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:17,983:Letter ID found:2276285 | Text: body_divText
+DEBUG | 2022-04-14 16:09:18,473:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:18,473:Letter ID found:2276284 | Text: body_divText
+DEBUG | 2022-04-14 16:09:18,854:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:18,854:Letter ID found:2276283 | Text: body_divText
+DEBUG | 2022-04-14 16:09:19,425:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:19,425:Letter ID found:2276282 | Text: body_divText
+DEBUG | 2022-04-14 16:09:19,788:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:19,788:Letter ID found:2276281 | Text: body_divText
+DEBUG | 2022-04-14 16:09:20,128:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:20,128:Letter ID found:2276280 | Text: body_divText
+DEBUG | 2022-04-14 16:09:20,603:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:20,603:Letter ID found:2276279 | Text: body_divText
+DEBUG | 2022-04-14 16:09:20,947:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:20,948:Letter ID found:2276278 | Text: body_divText
+DEBUG | 2022-04-14 16:09:21,283:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:21,284:Letter ID found:2276277 | Text: body_divText
+DEBUG | 2022-04-14 16:09:21,767:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:21,768:Letter ID found:2276276 | Text: body_divText
+DEBUG | 2022-04-14 16:09:22,201:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:22,201:Letter ID found:2276275 | Text: body_divText
+DEBUG | 2022-04-14 16:09:22,718:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:22,718:Letter ID found:2276274 | Text: body_divText
+DEBUG | 2022-04-14 16:09:23,074:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:23,074:Letter ID found:2276273 | Text: body_divText
+DEBUG | 2022-04-14 16:09:23,389:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:23,389:Letter ID found:2276272 | Text: body_divText
+DEBUG | 2022-04-14 16:09:23,734:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:23,734:Letter ID found:2276271 | Text: body_divText
+DEBUG | 2022-04-14 16:09:24,368:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:24,368:Letter ID found:2276270 | Text: body_divText
+DEBUG | 2022-04-14 16:09:24,792:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:24,792:Letter ID found:2276269 | Text: body_divText
+DEBUG | 2022-04-14 16:09:25,169:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:25,170:Letter ID found:2276268 | Text: body_divText
+DEBUG | 2022-04-14 16:09:25,681:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:25,681:Letter ID found:2276267 | Text: body_divText
+DEBUG | 2022-04-14 16:09:26,042:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:26,042:Letter ID found:2276266 | Text: body_divText
+DEBUG | 2022-04-14 16:09:26,519:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:26,519:Letter ID found:2276265 | Text: body_divText
+DEBUG | 2022-04-14 16:09:27,057:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:27,057:Letter ID found:2276264 | Text: body_divText
+DEBUG | 2022-04-14 16:09:27,439:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:27,439:Letter ID found:2276263 | Text: body_divText
+DEBUG | 2022-04-14 16:09:28,283:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:28,283:Letter ID found:2276262 | Text: body_divText
+DEBUG | 2022-04-14 16:09:28,625:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:28,625:Letter ID found:2276261 | Text: body_divText
+DEBUG | 2022-04-14 16:09:29,490:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:29,490:Letter ID found:2276260 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,146:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,146:Letter ID found:2276259 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,165:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,165:Letter ID found:2276258 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,187:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,187:Letter ID found:2276257 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,265:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,265:Letter ID found:2276256 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,331:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,331:Letter ID found:2276255 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,400:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,400:Letter ID found:2276254 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,467:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,467:Letter ID found:2276253 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,490:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,490:Letter ID found:2276252 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,524:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,524:Letter ID found:2276251 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,593:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,594:Letter ID found:2276250 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,662:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,662:Letter ID found:2276249 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,730:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,730:Letter ID found:2276248 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,791:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,791:Letter ID found:2276247 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,865:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,865:Letter ID found:2276246 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,884:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,885:Letter ID found:2276245 | Text: body_divText
+DEBUG | 2022-04-14 16:09:30,963:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:30,963:Letter ID found:2276244 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,034:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,035:Letter ID found:2276243 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,096:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,096:Letter ID found:2276242 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,162:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,163:Letter ID found:2276241 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,223:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,223:Letter ID found:2276240 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,291:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,291:Letter ID found:2276239 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,311:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,312:Letter ID found:2276238 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,375:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,375:Letter ID found:2276237 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,397:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,398:Letter ID found:2276236 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,419:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,419:Letter ID found:2276235 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,499:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,499:Letter ID found:2276234 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,519:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,519:Letter ID found:2276233 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,584:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,584:Letter ID found:2276232 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,649:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,649:Letter ID found:2276231 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,678:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,678:Letter ID found:2276230 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,752:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,752:Letter ID found:2276229 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,823:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,823:Letter ID found:2276228 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,854:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,854:Letter ID found:2276227 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,878:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,878:Letter ID found:2276226 | Text: body_divText
+DEBUG | 2022-04-14 16:09:31,947:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:31,947:Letter ID found:2276225 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,012:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,012:Letter ID found:2276224 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,081:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,081:Letter ID found:2276223 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,102:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,102:Letter ID found:2276222 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,175:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,176:Letter ID found:2276221 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,179:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,179:Letter ID found:2276220 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,259:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,259:Letter ID found:2276219 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,280:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,280:Letter ID found:2276218 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,302:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,302:Letter ID found:2276217 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,365:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,365:Letter ID found:2276216 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,365:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,365:Letter ID found:2276215 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,429:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,430:Letter ID found:2276214 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,451:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,451:Letter ID found:2276213 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,474:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,474:Letter ID found:2276212 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,555:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,555:Letter ID found:2276211 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,575:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,575:Letter ID found:2276210 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,646:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,646:Letter ID found:2276209 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,668:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,668:Letter ID found:2276208 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,732:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,732:Letter ID found:2276207 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,799:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,799:Letter ID found:2276206 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,820:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,820:Letter ID found:2276205 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,841:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,841:Letter ID found:2276204 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,912:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,912:Letter ID found:2276203 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,934:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,934:Letter ID found:2276202 | Text: body_divText
+DEBUG | 2022-04-14 16:09:32,999:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:32,999:Letter ID found:2276201 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,069:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,069:Letter ID found:2276200 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,091:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,091:Letter ID found:2276199 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,158:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,159:Letter ID found:2276198 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,179:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,180:Letter ID found:2276197 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,201:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,201:Letter ID found:2276196 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,263:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,263:Letter ID found:2276195 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,330:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,330:Letter ID found:2276194 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,389:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,389:Letter ID found:2276193 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,456:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,457:Letter ID found:2276192 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,517:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,518:Letter ID found:2276191 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,538:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,539:Letter ID found:2276190 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,605:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,605:Letter ID found:2276189 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,629:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,629:Letter ID found:2276188 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,703:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,703:Letter ID found:2276187 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,769:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,770:Letter ID found:2276186 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,788:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,788:Letter ID found:2276185 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,853:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,853:Letter ID found:2276184 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,922:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,922:Letter ID found:2276183 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,940:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,941:Letter ID found:2276182 | Text: body_divText
+DEBUG | 2022-04-14 16:09:33,962:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:33,962:Letter ID found:2276181 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,027:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,027:Letter ID found:2276180 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,094:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,094:Letter ID found:2276179 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,153:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,153:Letter ID found:2276178 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,218:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,218:Letter ID found:2276177 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,223:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,223:Letter ID found:2276176 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,302:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,302:Letter ID found:2276175 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,323:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,323:Letter ID found:2276174 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,395:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,395:Letter ID found:2276173 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,416:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,416:Letter ID found:2276172 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,493:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,493:Letter ID found:2276171 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,523:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,523:Letter ID found:2276170 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,582:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,582:Letter ID found:2276169 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,585:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,586:Letter ID found:2276168 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,652:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,652:Letter ID found:2276167 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,725:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,726:Letter ID found:2276166 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,751:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,751:Letter ID found:2276165 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,819:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,819:Letter ID found:2276164 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,839:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,839:Letter ID found:2276163 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,898:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,898:Letter ID found:2276162 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,919:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,919:Letter ID found:2276161 | Text: body_divText
+DEBUG | 2022-04-14 16:09:34,989:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:34,990:Letter ID found:2276160 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,054:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,054:Letter ID found:2276159 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,074:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,075:Letter ID found:2276158 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,149:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,149:Letter ID found:2276157 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,229:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,229:Letter ID found:2276156 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,251:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,251:Letter ID found:2276155 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,319:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,319:Letter ID found:2276154 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,361:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,361:Letter ID found:2276153 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,388:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,389:Letter ID found:2276152 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,411:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,411:Letter ID found:2276151 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,441:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,441:Letter ID found:2276150 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,482:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,482:Letter ID found:2276149 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,557:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,558:Letter ID found:2276148 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,580:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,580:Letter ID found:2276147 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,605:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,605:Letter ID found:2276146 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,683:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,683:Letter ID found:2276145 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,703:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,703:Letter ID found:2276144 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,770:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,770:Letter ID found:2276143 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,791:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,791:Letter ID found:2276142 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,818:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,818:Letter ID found:2276141 | Text: body_divText
+DEBUG | 2022-04-14 16:09:35,844:Letter not available at: [] | did not get any text
+INFO | 2022-04-14 16:09:35,844:Letter ID found:2276140 | Text: body_divText
