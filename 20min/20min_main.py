@@ -58,7 +58,7 @@ with open("comments_20min.xml", "w", encoding="utf-8") as writer:
         productChild.setAttribute("text", comment[2])
         productChild.setAttribute("reactions", comment[3])
         productChild.setAttribute("main_reaction", comment[4].split("(")[0])
-        productChild.setAttribute("main_reaction_amount", comment[4].split("(")[0].replace(" Lesende)", ""))
+        productChild.setAttribute("main_reaction_amount", comment[4].split("(")[1].replace(" Lesende)", ""))
         xml.appendChild(productChild)
     xml_str = root.toprettyxml(indent ="\t") 
     with open("comments_20min.xml", "w", encoding="utf-8") as files:
