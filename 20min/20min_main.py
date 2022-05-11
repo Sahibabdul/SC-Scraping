@@ -63,11 +63,12 @@ def get_comments_from_url(url):
     else :
         return ""
 
-articles = {}
-xml_str = ""
+
 for item in vote_dict.keys():
     urls = vote_dict[item]
     if urls is not None and len(urls) > 0:
+        articles = {}
+        xml_str = ""
         for url in urls:
             articles[url] = get_comments_from_url(url)
         for article in articles.keys():
@@ -82,19 +83,27 @@ for item in vote_dict.keys():
             print(article)
             for comment in comments:
                 comment = comment.split("\n")[:-1]
-                print(comment[4])
                 print(comment)
-                productChild = root.createElement("Comment")
-                productChild.setAttribute("author", comment[0])
-                productChild.setAttribute("creation_date", comment[1])
-                productChild.setAttribute("text", comment[2])
-                productChild.setAttribute("reactions", comment[3])
-                productChild.setAttribute("main_reaction", comment[4].split("(")[0])
-                if comment[-1] != "jetzt bewerten":
-                    productChild.setAttribute("main_reaction_amount", comment[4].split("(")[1].replace(" Lesende)", ""))
-                else:
-                    productChild.setAttribute("main_reaction_amount", "NA")
-                xml.appendChild(productChild)
+                print(article)
+
+                try:
+                    productChild = root.createElement("Comment")
+                    productChild.setAttribute("author", comment[0])
+                    productChild.setAttribute("creation_date", comment[1])
+                    productChild.setAttribute("text", comment[2])
+                    productChild.setAttribute("reactions", comment[3])
+                    productChild.setAttribute("main_reaction", comment[4].split("(")[0])
+                    if comment[-1] != "jetzt bewerten":
+                        productChild.setAttribute("main_reaction_amount", comment[4].split("(")[1].replace(" Lesende)", ""))
+                    else:
+                        productChild.setAttribute("main_reaction_amount", "NA")
+                    xml.appendChild(productChild)
+                except:
+                    print("------------------------")
+                    print(comment)
+                    print(article)
+                    print("------------------------")
+                
             xml_str = xml_str + root.toprettyxml(indent ="\t")
         xml_str = xml_str.replace("<?xml version=\"1.0\" ?>\n", "")
         with open(str(item)+".xml", "w", encoding="utf-8") as files:
