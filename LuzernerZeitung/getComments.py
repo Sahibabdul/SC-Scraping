@@ -16,8 +16,11 @@ driver = webdriver.Chrome(r'C:\Users\PhilippMarock\Downloads\chromedriver_win32\
 root = minidom.Document()
 xml = root.createElement("Articles")
 root.appendChild(xml)
+iter = 0
+leng = len(lines)
 for link in lines:
     try:    
+        print(str(iter) + " / " + str(leng))
         driver.get(link)
         title = driver.find_element_by_class_name("headline__title").text
         subtitle = driver.find_element_by_class_name("headline__lead").text
@@ -32,6 +35,7 @@ for link in lines:
         xml.appendChild(productChild)
     except:
         pass
+    iter += 1
 xml_str = root.toprettyxml(indent ="\t")
 xml_str = xml_str.replace("<?xml version=\"1.0\" ?>\n", "")
 with open("LuzernerZeitung/comments.xml", "w", encoding="utf-8") as files:
