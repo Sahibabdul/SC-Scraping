@@ -1,0 +1,1 @@
+from germansentiment import SentimentModel
