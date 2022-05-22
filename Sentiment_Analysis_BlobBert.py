@@ -51,7 +51,7 @@ for votes in initiatives:
     #Bert-Analysis:
 
     for comment in root.findall('Comment'):
-        buffer = comment.get('text')
+        buffer = comment.get('text').replace(",","").replace(";","")
         text.append(buffer)
         len_comments.append(len(buffer))
         authors.append(comment.get("author"))
@@ -122,6 +122,6 @@ for votes in initiatives:
 
         csv_file.writerow([str(num_of_commentators), str(aver_comment_per_auth), str(aver_len_comment), str(median_len_comment), str(num_positive_comments), str(num_negative_comments), str(num_neutral_comments), str(tendency_positive/total_reactions), str(num_reactions_postive), str(tendency_neutral/total_reactions), str(num_reactions_neutral),  str(tendency_negative/total_reactions), str(num_reactions_negative)])
 
-        csv_file.writerow(["Text","Sentiment", "main reaction", "reaction amount", "reactions", "author"])
+        csv_file.writerow(["Text","Sentiment", "main reaction", "main reaction amount", "all reactions"])
         for i in range(len(text)):
-            csv_file.writerow([str(text[i]), sentiment_res[text[i]]])
+            csv_file.writerow([str(text[i]), sentiment_res[text[i]], reactions[text[i]], main_reactions_amount[text[i]], reactions_amount[text[i]]])
