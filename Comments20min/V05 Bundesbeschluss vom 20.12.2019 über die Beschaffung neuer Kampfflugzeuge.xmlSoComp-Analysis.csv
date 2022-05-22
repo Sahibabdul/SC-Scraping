@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+1626,1.4514145141451416,151.34110169491527,108.5,160,910,1281,0.036777468478794824,2413,0.21529392500409367,16360,0.15631242836089734,11745
+Text,Sentiment,main reaction,reaction amount,reactions,author
 "denkt auch jemand an die, die keine Ferien nach Wunsch bekommen, oder die Arbeit der gewordenen Väter auch noch machen müssen ?",['neutral']
 Kaum sind die 2 Wochen Vaterschaftsurlaub angenommen wird von der SP überlegt dies auf 8 Wochen zu erhöhen. Einen Plan wie das finanziert wird hat die SP nicht ! Träumerpartei.,['neutral']
 Wow Gratuliere zum Untergang der CH,['positive']

@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+461,1.4143167028199566,146.24693251533742,96.0,55,268,323,0.05855852473664056,13011,0.21748271175750658,64171,0.2066780294782367,55058
+Text,Sentiment,main reaction,reaction amount,reactions,author
 Ab Montag werden bestimmt die Fallzahlen schon erste sinkenden Tendenzen dieser Abstimmung zeigen.,['neutral']
 Jetzt muss noch die 2G Reglung kommen wie in Deutschland kommt 2022.,['neutral']
 Bitte nicht jammern wen es wider für alle Lokdown gibt oder für alle Test die selbst Bezahlt werden müssen. Noch schlimmer Danke für die ….Zukunft unserer Kinder.,['negative']

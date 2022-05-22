@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+73,1.178082191780822,131.15116279069767,100.0,6,37,43,0.09374695151692518,961,0.35645302897278314,5310,0.27568042142230026,3980
+Text,Sentiment,main reaction,reaction amount,reactions,author
 "Eine sogenannte illegale Zurückweisung ist nur eine Abwehrreaktion eines Staates auf illegales Eindringen in sein Staatsgebiet. Wer illegal eindringt, fliegt auch illegal wieder raus.",['neutral']
 Dabei ist jeder Pushback ein Erfolg für die Schweiz. Also alles ok Herr Leggeri,['neutral']
 "Die Berner Polizisten haben sich bei den Aktivisten auf Geheiss der Stadtregierung entschuldigt und ihnen je eine ÖV Tageskarte ausgehändigt, damit sie nicht schwarz unterwegs sein müssen.",['neutral']

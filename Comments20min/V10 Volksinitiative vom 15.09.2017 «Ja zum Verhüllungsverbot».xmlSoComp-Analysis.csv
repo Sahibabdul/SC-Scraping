@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+668,1.1362275449101797,134.8893280632411,109,64,216,478,0.03358547655068079,1108,0.33358547655068077,9090,0.07881996974281393,3022
+Text,Sentiment,main reaction,reaction amount,reactions,author
 ich möcht auch eine Abstimmung um den Pendlerabzug bei den Steuern nicht zu begrenzen.,['neutral']
 endlich erkennt mich niemand mehr mit meiner Covid-Maske. Bin zwar hübsch aber die Schweizer sind Tagträumer.,['negative']
 "Natürlich, will mich ja nicht von einem vermummten Chirurgen Operieren lassen, Ironie off. Habe aber wärend meiner vielen verschiedenen Reisen in Ägypten oft weniger vermummte gesehen als hier in der Schweiz und nicht Touristen.",['neutral']

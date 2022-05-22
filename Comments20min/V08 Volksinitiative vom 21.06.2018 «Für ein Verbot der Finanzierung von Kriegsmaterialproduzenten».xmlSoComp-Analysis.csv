@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+157,1.1210191082802548,161.375,96.5,21,64,91,0.054334554334554336,143,0.09462759462759462,845,0.0,650
+Text,Sentiment,main reaction,reaction amount,reactions,author
 "jeder der etwas weiter denken kann, legt ein nein in die urne. meins ist schon auf sicher...",['neutral']
 In der Schweiz sterben jährlich mehr durch Autos als Waffen. Verzichtet doch aufs Autofahren und rettet Leben,['neutral']
 "Was Verbote oder Verschärfung nutzen, sieht man am verschärften Waffenrecht. Oder wie war das nochmals genau mit Wien?",['neutral']

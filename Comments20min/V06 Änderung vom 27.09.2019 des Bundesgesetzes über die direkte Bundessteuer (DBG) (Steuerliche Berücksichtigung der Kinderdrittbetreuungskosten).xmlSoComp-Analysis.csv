@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+59,1.0847457627118644,199.359375,167.0,8,25,31,0.0,2,0.42857142857142855,3,0.2857142857142857,2
+Text,Sentiment,main reaction,reaction amount,reactions,author
 "wie wäre es mal, wenn Alleinstehende mal einen extra Abzug machen können. Wir finanzieren die Schulen mit etc.",['positive']
 "Und warum dürfen diejenigen, welche selber zu den eigenen Kindern schauen nichts abziehen? Dies finde ich absolut ungerecht!! Man hat weniger Lohn zur Verfügung ( nur 1 Lohn) und die gleichen fixen Kosten wie die Doppelverdiener. Daher werde ich NEIN stimmen.",['negative']
 "Hat eigentlich irgendjemand von euch jemals Kinder dazu befragt ob sie einverstanden sind, dass man sie auf Kosten des Egos einfach abschiebt ??",['neutral']

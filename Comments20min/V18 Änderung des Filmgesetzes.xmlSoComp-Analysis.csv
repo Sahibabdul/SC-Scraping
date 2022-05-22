@@ -1,3 +1,6 @@
+Nof commentators,Average Comments/commentators,Average length of comment (in words),Median length of comment (in words),Nof comments positive,Nof comments neutral,Nof comments negative,Tendency to positive comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to positive comments,Tendency to neutral comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to neutral comments,Tendency to negative comments (all main_reactions +/- added together and then divided by total reactions),# Reactions to negative comments
+129,1.3953488372093024,217.07222222222222,163.0,13,109,57,0.011599551835497265,594,0.05206617017069795,4638,-0.011401832201937653,9497
+Text,Sentiment,main reaction,reaction amount,reactions,author
 "Wir bezahlen schon Gebühren an den Staat, jetzt auch noch eine neue Abgabe. Definitiv NEIN - ich entscheide selber, welche Filme ich sehen will ; da gehören nur wenige CH - Produktionen hin - da genügen die Serafe-Abgabrn. Also - NEIN Danke!",['negative']
 Warum 360 für Fernsehen zahlen u 90% Schichten kommt,['neutral']
 Gute Filme werden freiwillig geschaut und dafür auch bezahlt. Schlechte nicht. Ganz einfach. Nennt sich Marktwirtschaft.,['negative']
