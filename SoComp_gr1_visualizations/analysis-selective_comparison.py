@@ -48,6 +48,26 @@ plots = [
         "x_axis": "nof_ads_print",
         "y_axis": "voting_result"
     },
+    {
+        "title": "Compare Topic to 20min comments",
+        "x_axis": "topic_main",
+        "y_axis": "20m_nof_comments"
+    },
+    {
+        "title": "Compare Topic to voter turnout",
+        "x_axis": "topic_main",
+        "y_axis": "voter_turnout"
+    },
+    {
+        "title": "Compare Topic to voting result",
+        "x_axis": "topic_main",
+        "y_axis": "voting_result"
+    },
+    {
+        "title": "Compare voter turnout to voting result",
+        "x_axis": "voter_turnout",
+        "y_axis": "voting_result"
+    },
 ]
 
 

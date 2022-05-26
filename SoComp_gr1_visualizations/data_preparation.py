@@ -60,6 +60,23 @@ def collect_and_wash():
     # Convert "vote_nr" attribute to string
     df['vote_nr'] = "V" + df['vote_nr'].astype(str)
     
+    # Assign labels to main topics
+    topic_labels = [
+        "Staatsordnung",
+        "Aussenpolitik",
+        "Sicherheitspolitik",
+        "Wirtschaft",
+        "Landwirtschaft",
+        "Öffentliche Finanzen",
+        "Energie",
+        "Verkehr und Infrastruktur",
+        "Umwelt und Lebensraum",
+        "Sozialpolitik",
+        "Bildung und Forschung",
+        "Kultur, Religion, Medien"
+    ]
+    df['topic_label'] = df['topic_main'].apply(lambda topic: topic_labels[topic - 1])
+
     # Assign collors to main topic
     topic_colors = bp.Set3[max(df['topic_main'])]
     df['topic_color'] = df['topic_main'].apply(lambda topic: topic_colors[topic - 1])
