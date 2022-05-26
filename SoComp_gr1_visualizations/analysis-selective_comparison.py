@@ -8,28 +8,39 @@ from bokeh.plotting import figure
 from bokeh.models import ColumnDataSource, HoverTool
 from bokeh.layouts import gridplot
 import bokeh.palettes as bp
+import datetime as dt
 
 ############################################
 # *****    Define your parameters    ***** #
 #                                          #
-# All parameters will be compared with     #
-# each other in (n 2) scatterplots.        #
+# Specify all combinations of parameters   #
+# you want to compare using scatterplots.  #
 #                                          #
 # ---------------------------------------- #
-params = [
-    "20m_nof_comments",
-    "20m_avg_len_comment",
-    "20m_med_len_comment",
-    "20m_nof_comments_positive",
-    "20m_nof_comments_neutral",
-    "20m_nof_comments_negative",
-    "20m_tendency_positive",
-    "20min_reactions_positive",
-    "20m_tendency_neutral",
-    "20min_reactions_neutral",
-    "20m_tendency_negative",
-    "20min_reactions_negative"
+plots = [
+    {
+        "title": "Compare number to average length",
+        "x_axis": "20m_nof_comments",
+        "y_axis": "20m_avg_len_comment",
+        "x_axis_label": "Number of comments in 20min",
+        "y_axis_label": "Average length of comments"
+    },
+    {
+        "title": "Compare number to median length",
+        "x_axis": "20m_nof_comments",
+        "y_axis": "20m_med_len_comment",
+        "x_axis_label": "Number of comments in 20min",
+        "y_axis_label": "Median length of comments"
+    },
+    {
+        "title": "Compare tonality to voting result",
+        "x_axis": "tonality_mediareport",
+        "y_axis": "voting_result",
+        "x_axis_label": "Tonality in Medienberichterstattungen",
+        "y_axis_label": "Result of Vote (in percent)"
+    },
 ]
+
 # ---------------------------------------- #
 # ***  Hands off the following code!!  *** #
 ############################################
@@ -41,11 +52,11 @@ df = pd.read_csv('SoComp_clean_datasheet.csv')
 # ***********  Clean the data  *********** #
 
 # Convert "vote_nr" attribute to string
-df['vote_nr'] = "V"+df['vote_nr'].astype(str)
+df['vote_nr'] = "V" + df['vote_nr'].astype(str)
 
 # Assign collors to main topic
 topic_colors = bp.Set3[max(df['topic_main'])]
-df['topic_color'] = df['topic_main'].apply(lambda topic: topic_colors[topic-1])
+df['topic_color'] = df['topic_main'].apply(lambda topic: topic_colors[topic - 1])
 
 # Convert "voting_date" to datetime type
 df['voting_date'] = pd.to_datetime(df['voting_date'], infer_datetime_format=True)
@@ -70,7 +81,7 @@ df['staendemehr'] = df['staendemehr'].str.rstrip('%').astype('float')
 df['yes_ads'] = df['yes_ads'].str.rstrip('%').astype('float')
 
 # Assign collors to verdict
-verdict_colors = {"YES":"#2ca02c", "NO": "#d62728"}
+verdict_colors = {"YES": "#2ca02c", "NO": "#d62728"}
 df['verdict_color'] = df['verdict'].apply(lambda v: verdict_colors[v])
 
 # ***********  Washing complete  *********** #
@@ -79,34 +90,28 @@ df['verdict_color'] = df['verdict'].apply(lambda v: verdict_colors[v])
 cds = ColumnDataSource(df)
 
 glyphs = []
-for px in range(len(params)):
-    for py in range(px, len(params)):
+for plot in plots:
+    # Visualize the data
+    p = figure(width=400, height=400, title=plot["title"])
+    p.scatter(source=cds, x=plot["x_axis"], y=plot["y_axis"], size=15, color="pol_colors")
+    p.xaxis.axis_label = plot["x_axis_label"]
+    p.yaxis.axis_label = plot["y_axis_label"]
+    p.sizing_mode = "scale_both"
     
-        # We don't have to compare values to themselves
-        if px == py:
-            continue
+    # Add hover tool
+    hover = HoverTool(tooltips=[
+        ("Initiative", "@vote_title"),
+        ("Political affiliation", "@pol_desc"),
+        (plot["x_axis_label"], "@" + plot["x_axis"]),
+        (plot["y_axis_label"], "@" + plot["y_axis"])
+    ])
+    p.add_tools(hover)
     
-        # Visualize the data
-        p = figure(width=400, height=400, title=f"{params[px]} x {params[py]}")
-        p.scatter(source=cds, x=params[px], y=params[py], size=15, color="pol_colors")
-        p.xaxis.axis_label = params[px]
-        p.yaxis.axis_label = params[py]
-        p.sizing_mode = "scale_both"
-        
-        # Add hover tool
-        hover = HoverTool(tooltips=[
-            ("Initiative", "@vote_title"),
-            ("Political affiliation", "@pol_desc"),
-            (params[px], f"@{params[px]}"),
-            (params[py], f"@{params[py]}")
-        ])
-        p.add_tools(hover)
-        
-        # Append glyph
-        glyphs.append(p)
+    # Append glyph
+    glyphs.append(p)
 
 # make a grid and plot everything
-output_file(filename="analysis-multi_compare.html", title="SoComp - Group 1 - Multi-Compare")
+output_file(filename="analysis-selective_comparison.html", title="SoComp - Group 1 - Multi-Compare")
 
-grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both")
+grid = gridplot(glyphs, ncols=3, sizing_mode="stretch_both")
 show(grid)
