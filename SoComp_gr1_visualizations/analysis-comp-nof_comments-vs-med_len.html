@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.4.2.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="effc3320-3322-43cf-ae70-aa89b7af3127" data-root-id="1003"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1174">
+          {"a09c59dc-d896-4053-8eb8-d78f829e4316":{"defs":[],"roots":{"references":[{"attributes":{"source":{"id":"1002"}},"id":"1041","type":"CDSView"},{"attributes":{},"id":"1050","type":"AllLabels"},{"attributes":{"callback":null,"tooltips":[["Number of comments","@20m_nof_comments"],["Median length (words)","@20m_med_len_comment"]]},"id":"1042","type":"HoverTool"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"size":{"value":20},"x":{"field":"20m_nof_comments"},"y":{"field":"20m_med_len_comment"}},"id":"1037","type":"Scatter"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.1},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"size":{"value":20},"x":{"field":"20m_nof_comments"},"y":{"field":"20m_med_len_comment"}},"id":"1038","type":"Scatter"},{"attributes":{},"id":"1047","type":"AllLabels"},{"attributes":{},"id":"1026","type":"ResetTool"},{"attributes":{},"id":"1022","type":"PanTool"},{"attributes":{"overlay":{"id":"1028"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{},"id":"1025","type":"SaveTool"},{"attributes":{"tools":[{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"},{"id":"1042"}]},"id":"1029","type":"Toolbar"},{"attributes":{},"id":"1049","type":"BasicTickFormatter"},{"attributes":{},"id":"1023","type":"WheelZoomTool"},{"attributes":{"axis":{"id":"1018"},"coordinates":null,"dimension":1,"group":null,"ticker":null},"id":"1021","type":"Grid"},{"attributes":{},"id":"1019","type":"BasicTicker"},{"attributes":{},"id":"1046","type":"BasicTickFormatter"},{"attributes":{},"id":"1015","type":"BasicTicker"},{"attributes":{},"id":"1052","type":"Selection"},{"attributes":{"axis_label":"Number of comments in 20min","coordinates":null,"formatter":{"id":"1049"},"group":null,"major_label_policy":{"id":"1050"},"ticker":{"id":"1015"}},"id":"1014","type":"LinearAxis"},{"attributes":{},"id":"1051","type":"UnionRenderers"},{"attributes":{},"id":"1027","type":"HelpTool"},{"attributes":{},"id":"1008","type":"DataRange1d"},{"attributes":{"axis":{"id":"1014"},"coordinates":null,"group":null,"ticker":null},"id":"1017","type":"Grid"},{"attributes":{},"id":"1010","type":"LinearScale"},{"attributes":{},"id":"1006","type":"DataRange1d"},{"attributes":{"coordinates":null,"group":null,"text":"Comparison: 20minuten, number of comments - median length"},"id":"1004","type":"Title"},{"attributes":{},"id":"1012","type":"LinearScale"},{"attributes":{"axis_label":"Median length of comments","coordinates":null,"formatter":{"id":"1046"},"group":null,"major_label_policy":{"id":"1047"},"ticker":{"id":"1019"}},"id":"1018","type":"LinearAxis"},{"attributes":{"bottom_units":"screen","coordinates":null,"fill_alpha":0.5,"fill_color":"lightgrey","group":null,"left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"1028","type":"BoxAnnotation"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"value":"#1f77b4"},"hatch_alpha":{"value":0.2},"line_alpha":{"value":0.2},"line_color":{"value":"#1f77b4"},"size":{"value":20},"x":{"field":"20m_nof_comments"},"y":{"field":"20m_med_len_comment"}},"id":"1039","type":"Scatter"},{"attributes":{"below":[{"id":"1014"}],"center":[{"id":"1017"},{"id":"1021"}],"height":800,"left":[{"id":"1018"}],"renderers":[{"id":"1040"}],"sizing_mode":"stretch_both","title":{"id":"1004"},"toolbar":{"id":"1029"},"x_range":{"id":"1006"},"x_scale":{"id":"1010"},"y_range":{"id":"1008"},"y_scale":{"id":"1012"}},"id":"1003","subtype":"Figure","type":"Plot"},{"attributes":{"coordinates":null,"data_source":{"id":"1002"},"glyph":{"id":"1037"},"group":null,"hover_glyph":null,"muted_glyph":{"id":"1039"},"nonselection_glyph":{"id":"1038"},"view":{"id":"1041"}},"id":"1040","type":"GlyphRenderer"},{"attributes":{"data":{"20m_avg_comments_article":[590,32,534,59,144,380,109,294,175,217,34,29,85,90],"20m_avg_comments_commentator":{"__ndarray__":"MzMzMzMz9z9I4XoUrkfxPxSuR+F6FPY/7FG4HoXr8T+4HoXrUbjyPz0K16NwPfI/UrgehetR+D9SuB6F61H0P0jhehSuR/k/j8L1KFyP9j8pXI/C9Sj0P+F6FK5H4fI/MzMzMzMz9z9mZmZmZmb2Pw==","dtype":"float64","order":"little","shape":[14]},"20m_avg_len_comment":{"__ndarray__":"exSuR+HKYkApXI/C9cBoQIXrUbgeFV9A7FG4HoUDZECuR+F6FHZlQB+F61G4vmBArkfhehQGakDsUbgehYNjQB+F61G47mlAcT0K16MoYkBI4XoUrkdoQFyPwvUoTGBASOF6FK4fZECamZmZmfFqQA==","dtype":"float64","order":"little","shape":[14]},"20m_med_len_comment":{"__ndarray__":"AAAAAAAAW0AAAAAAAJBkQAAAAAAAwFZAAAAAAAAgWEAAAAAAAIBgQAAAAAAAQFtAAAAAAAAQZEAAAAAAAMBdQAAAAAAA4GBAAAAAAAAAWEAAAAAAAKBeQAAAAAAA4FhAAAAAAADAW0AAAAAAACBkQA==","dtype":"float64","order":"little","shape":[14]},"20m_nof_arcitles":[4,2,4,3,1,2,3,3,2,3,1,3,4,2],"20m_nof_commentators":["1\u2019626","59","1\u2019552","157","123","668","216","696","221","461","27","73","234","129"],"20m_nof_comments":[2360,64,2135,176,144,759,328,881,349,652,34,86,339,180],"20m_nof_comments_negative":[1281,31,1198,91,101,478,152,542,170,323,18,43,193,57],"20m_nof_comments_neutral":[910,25,789,64,39,216,157,273,150,268,14,37,133,109],"20m_nof_comments_positive":[160,8,146,21,4,64,17,66,24,55,2,6,11,13],"20m_tendency_negative":{"__ndarray__":"exSuR+F6xD+PwvUoXI/SP5qZmZmZmbk/AAAAAAAAAADD9Shcj8LFP3sUrkfherQ/MzMzMzMzwz/hehSuR+HKP1K4HoXrUcg/4XoUrkfhyj9SuB6F61HgP+xRuB6F69E/CtejcD0Kxz97FK5H4XqEvw==","dtype":"float64","order":"little","shape":[14]},"20m_tendency_neutral":{"__ndarray__":"KVyPwvUozD+F61G4HoXbP3E9CtejcM0/CtejcD0Ktz9mZmZmZmbWPx+F61G4HtU/uB6F61G4vj/hehSuR+HKP0jhehSuR9E/KVyPwvUozD8fhetRuB7VPwrXo3A9Ctc/KVyPwvUozD+amZmZmZmpPw==","dtype":"float64","order":"little","shape":[14]},"20m_tendency_positive":{"__ndarray__":"exSuR+F6pD8AAAAAAAAAALgehetRuJ4/mpmZmZmZqT97FK5H4XqEP7gehetRuJ4/AAAAAAAAAAB7FK5H4XqEPwAAAAAAAAAAuB6F61G4rj97FK5H4Xq0PwrXo3A9Crc/exSuR+F6hD97FK5H4XqEPw==","dtype":"float64","order":"little","shape":[14]},"20m_timeperiod":["09.09.2020 \u2013 28.09.2020","29.04.2020 \u2013 13.08.2020","12.09.2020 \u2013 15.10.2020","02.11.2020 \u2013 30.11.2020","06.10.2020 \u2013 07.10.2020","08.03.2021 \u2013 16.01.2021","31.05.2021 \u2013 19.06.2021","11.04.2021 \u2013 26.09.2021","10.08.2021 \u2013 11.08.2021","19.11.2021 \u2013 28.11.2021","20.11.2021 \u2013 20.11.2021","22.04.2022 \u2013 30.04.2022","22.04.2022 \u2013 06.05.2022","25.04.2022 \u2013 27.04.2022"],"20min_reactions_negative":[11745,2,13186,650,450,3022,1955,15604,17424,55058,1295,3980,22194,9497],"20min_reactions_neutral":[16360,3,20502,845,1311,9090,3420,24039,17970,64171,1015,5310,28589,4638],"20min_reactions_positive":[2413,2,2360,143,25,1108,45,1627,2461,13011,210,961,1030,594],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13],"lz_avg_len_letter":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_avg_letters_writer":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_avg_opinion":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_med_len_letter":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_nof_letters":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_nof_writers":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"lz_timeperiod":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"nof_ads_print":[211,34,658,220,1047,30,1288,58,266,231,39,121,12,77],"nof_mediareport":[303,170,628,194,703,364,548,428,209,686,278,242,204,221],"political_affiliation":[4,4,5,1,0,5,1,0,1,0,2,4,3,2],"staendemehr":["NaN","NaN","15.22%","15.22%","36.96%","78.26%","NaN","NaN","0%","NaN","97.83%","100.00%","86.96%","76.09%"],"tonality_mediareport":[14,-4,-34,1,-11,-10,29,36,-25,17,23,14,9,-3],"topic_main":[3,6,10,6,4,10,9,10,6,10,4,2,10,12],"topic_sub":{"__ndarray__":"AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fwAAAAAAAPh/AAAAAAAA8D8AAAAAAAAkQAAAAAAAAPh/AAAAAAAA+H8AAAAAAAD4fw==","dtype":"float64","order":"little","shape":[14]},"topic_text":["3. Sicherheitspolitik\n3.2.3 R\u00fcstung","6. \u00d6ffentliche Finanzen\n6.1.1 Steuerpolitik","10. Sozialpolitik\n10.3.1 Ausl\u00e4nderpolitik","6. \u00d6ffentliche Finanzen\n6.3 \u00d6ffentliche Ausgaben","4. Wirtschaft\n4.1.6 Gesellschaftsrecht","10: Sozialpolitik\n10.3.1: Ausl\u00e4nderpolitik","9: Umwelt &amp; Lebensraum 9.3.3: Luftreinhaltung","10: Sozialpolitik\n10.3.8: Homosexuelle","6: \u00d6ffentliche Finanzen\n6.1.3: Direkte Steuern","1.6.2: Grundrechte &amp;\n10: Sozialpolitik\n10.1: Gesundheit\n\n?\n\nAusserordentliche Kategorie \u2192 im Report erw\u00e4hnen","4: Wirtschaft\n4.2: Arbeit und Besch\u00e4ftigung\n4.2.1: Arbeitsbedingungen\n\n10: Sozialpolitik\n10.1.1: Gesundheitspolitik","2: Aussenpolitik\n2.2.4: Andere europ\u00e4ische Organisationen","10: Sozialpolitik\n10.1.1: Gesundheitspolitik","12 Kultur, Religion, Medien\n12.1 Kulturpolitik\n12.5 Medien und Kommunikation"],"verdict":["YES","NO","NO","NO","NO","YES","NO","YES","NO","YES","YES","YES","YES","YES"],"vote_nr":[5,6,7,8,9,10,11,12,13,14,15,16,17,18],"vote_title":["Bundesbeschluss vom 20.12.2019 \u00fcber die Beschaffung neuer Kampfflugzeuge","\u00c4nderung vom 27.09.2019 des Bundesgesetzes \u00fcber die direkte Bundessteuer (DBG) (Steuerliche Ber\u00fccksichtigung der Kinderdrittbetreuungskosten)","Volksinitiative vom 31.08.2018 \u00abF\u00fcr eine massvolle Zuwanderung (Begrenzungsinitiative)\u00bb","Volksinitiative vom 21.06.2018 \u00abF\u00fcr ein Verbot der Finanzierung von Kriegsmaterialproduzenten\u00bb","Volksinitiative vom 10.10.2016 \u00abF\u00fcr verantwortungsvolle Unternehmen \u2013 zum Schutz von Mensch und Umwelt\u00bb","Volksinitiative vom 15.09.2017 \u00abJa zum Verh\u00fcllungsverbot\u00bb","Bundesgesetz vom 25.09.2020 \u00fcber die Verminderung von Treibhausgasemissionen (CO2-Gesetz)","\u00c4nderung vom 18.12.2020 des Schweizerischen Zivilgesetzbuches (Ehe f\u00fcr alle)","Volksinitiative vom 02.04.2019 \u00abL\u00f6hne entlasten, Kapital gerecht besteuern\u00bb","Bundesgesetz vom 25.09.2020 \u00fcber die gesetzlichen Grundlagen f\u00fcr Verordnungen des Bundesrates zur Bew\u00e4ltigung der Covid-19-Epidemie (Covid-19-Gesetz)","Volksinitiative \u00abF\u00fcr eine starke Pflege\u00bb (Pflegeinitiative)","\u00dcbernahme der EU-Verordnung \u00fcber die Europ\u00e4ische Grenz- und K\u00fcstenwache (Weiterentwicklung des Schengen-Besitzstands)","\u00c4nderung des Transplantationsgesetzes","\u00c4nderung des Filmgesetzes"],"voter_turnout":["59.43%","59.21%","59.49%","46.95%","47.04%","51.42%","59.70%","52.60%","52.23%","65.73%","65.31%","39.98%","40.26%","40.03%"],"voting_date":["27.09.2020","27.09.2020","27.09.2020","29.11.2020","29.11.2020","07.03.2021","13.06.2021","26.09.2021","26.09.2021","28.11.2021","28.11.2021","15.05.2022","15.05.2022","15.05.2022"],"voting_result":["50.10%","36.80%","38.30%","42.50%","50.70%","51.20%","48.40%","64.10%","35.10%","62.00%","61.00%","71.48%","60.20%","58.42%"],"yes_ads":["90.00%","19.00%","35.00%","16.00%","28.00%","63.00%","69.00%","84.00%","0.38%","10.00%","74.00%","99.17%","83.00%","77.00%"]},"selected":{"id":"1052"},"selection_policy":{"id":"1051"}},"id":"1002","type":"ColumnDataSource"}],"root_ids":["1003"]},"title":"Bokeh Application","version":"2.4.2"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            const fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  const docs_json = document.getElementById('1174').textContent;
+                  const render_items = [{"docid":"a09c59dc-d896-4053-8eb8-d78f829e4316","root_ids":["1003"],"roots":{"1003":"effc3320-3322-43cf-ae70-aa89b7af3127"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    let attempts = 0;
+                    const timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
