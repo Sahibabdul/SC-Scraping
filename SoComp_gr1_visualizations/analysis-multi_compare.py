@@ -6,7 +6,7 @@ from bokeh.io import output_file, show
 from bokeh.plotting import figure
 from bokeh.models import HoverTool
 from bokeh.layouts import gridplot
-from data_preparation import parameter_dict, collect_and_wash
+from data_preparation import *
 
 ############################################
 # *****    Define your parameters    ***** #
@@ -29,6 +29,25 @@ params = [
     "20m_tendency_negative",
     "20min_reactions_negative"
 ]
+
+# Define attribute for marker mapping
+# Options:
+#    - topic_markers    => Main topic of initiative
+#    - pol_markers     => Political affilate that supported initiative
+#    - verdict_markers  => vote accepted/rejected
+use_marker = "topic_markers"
+
+# Define attribute for color mapping
+# Options:
+#    - topic_color    => Main topic of initiative
+#    - pol_colors     => Political affilate that supported initiative
+#    - verdict_color  => vote accepted/rejected
+use_color = "pol_colors"
+
+# Define marker size and transparency
+marker_size = 18
+marker_alpha = 0.8
+
 # ---------------------------------------- #
 # ***  Hands off the following code!!  *** #
 ############################################
@@ -45,9 +64,9 @@ for px in range(len(params)):
             continue
     
         # Visualize the data
-        p = figure(width=400, height=400, title=f"{params[px]} x {params[py]}")
-        p.scatter(source=cds, x=params[px], y=params[py], size=20,
-                  color="pol_colors",  line_color=None, alpha=1, marker="verdict_markers")
+        p = figure(width=400, height=400, tools=plot_tools, title=f"{params[px]} x {params[py]}")
+        p.scatter(source=cds, x=params[px], y=params[py], size=marker_size,
+                  color=use_color,  line_color=None, alpha=marker_alpha, marker=use_marker)
         p.xaxis.axis_label = parameter_dict[params[px]]
         p.yaxis.axis_label = parameter_dict[params[py]]
         p.sizing_mode = "scale_both"
@@ -55,7 +74,8 @@ for px in range(len(params)):
         # Add hover tool
         hover = HoverTool(tooltips=[
             ("Initiative", "@vote_title"),
-            ("Political affiliation", "@pol_desc"),
+            ("Topic", "@topic_label"),
+            ("Affiliation", "@pol_desc"),
             (parameter_dict[params[px]], f"@{params[px]}"),
             (parameter_dict[params[py]], f"@{params[py]}")
         ])
@@ -67,5 +87,5 @@ for px in range(len(params)):
 # make a grid and plot everything
 output_file(filename="analysis-multi_compare.html", title="SoComp - Group 1 - Multi-Compare")
 
-grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both")
+grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both", merge_tools=False)
 show(grid)

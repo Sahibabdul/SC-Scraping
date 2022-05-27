@@ -3,7 +3,8 @@
 
 # Import necessary files
 import pandas as pd
-from bokeh.models import ColumnDataSource, HoverTool
+from bokeh.models import ColumnDataSource, PanTool, BoxZoomTool, WheelZoomTool, UndoTool, RedoTool, \
+    ResetTool, SaveTool
 import bokeh.palettes as bp
 
 
@@ -50,6 +51,18 @@ parameter_dict = {
     "20min_reactions_negative": "20min Number of reactions to negative comments"
 }
 
+# Specify toolbar
+plot_tools = [
+    UndoTool(),
+    RedoTool(),
+    ResetTool(),
+    PanTool(),
+    BoxZoomTool(),
+    WheelZoomTool(),
+    SaveTool()
+]
+
+# Import and prepare data
 def collect_and_wash():
     
     # Read data into a dataframe using pandas
@@ -77,20 +90,38 @@ def collect_and_wash():
     ]
     df['topic_label'] = df['topic_main'].apply(lambda topic: topic_labels[topic - 1])
 
+    # Assign collors and markers to main topic
     # Assign collors to main topic
     topic_colors = bp.Set3[max(df['topic_main'])]
+    topic_markers = [
+        "x",
+        "inverted_triangle",    # Aussenpolitik
+        "triangle",             # Sicherheitspolitik
+        "hex",                  # Wirtschaft
+        "x",
+        "diamond",              # Öffentliche Finanzen
+        "x",
+        "x",
+        "circle",               # Umwelt und Lebensraum
+        "square_pin",           # Sozialpolitik
+        "x",
+        "plus"                  # Kultur, Religion, Medien
+    ]
     df['topic_color'] = df['topic_main'].apply(lambda topic: topic_colors[topic - 1])
-    
+    df['topic_markers'] = df['topic_main'].apply(lambda topic: topic_markers[topic - 1])
+
     # Convert "voting_date" to datetime type
     df['voting_date'] = pd.to_datetime(df['voting_date'], infer_datetime_format=True)
     
-    # Assign collors and descriptions to political affiliation
+    # Assign collors, markers and descriptions to political affiliation
     # Source: https://medium.com/srf-schweizer-radio-und-fernsehen/wie-wir-bei-srf-parteien-einfärben-9f010f80cf62
     pol_desc = ["Partei-übergreifend/parteilos", "Grüne, SP", "EVP", "Mitte, GLP", "FDP", "SVP"]
     pol_colors = ["#cccccc", "#ff0000", "#ff8700", "#beef00", "#063cff", "#009a2e"]
+    pol_markers = ["square_pin", "circle", "triangle", "hex", "inverted_triangle", "square"]
     df['pol_desc'] = df['political_affiliation'].apply(lambda aff: pol_desc[aff])
     df['pol_colors'] = df['political_affiliation'].apply(lambda aff: pol_colors[aff])
-    
+    df['pol_markers'] = df['political_affiliation'].apply(lambda aff: pol_markers[aff])
+
     # Convert "voter_turnout" attribute to float
     df['voter_turnout'] = df['voter_turnout'].str.rstrip('%').astype('float')
     
