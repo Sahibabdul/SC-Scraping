@@ -23,7 +23,8 @@ words_per_initiative = {
     "V18": ["filmgesetz", "netflix"]
 }
 """
-words_per_initiative = {
+# Search keywords are combined with an OR search
+search_keywords = {
     "V01-billag": ["fernsehgebühren", "billag", "bilag", "serafe"],
     "V02-fairfood": ["fairfood", "fair-food"],
     "V03-atsg": ["sozialversicherungsrecht", "atsg", "überwachung"],
@@ -34,10 +35,10 @@ words_per_initiative = {
     "V08-kriegsmaterial": ["kriegsmaterial", "rüstungsfirma", "rüstungsfirmen", "waffenexport"],
     "V09-konzernverantwortung": ["konzernverantwortung"],
     "V10-verhüllungsverbot": ["verhüllungsverbot", "burka", "kopftuch", "kopftücher"],
-    "V11-co2": ["co2", "treibhausgas", "treibhausgasemissionen"],
+    "V11-co2": ["co2", "treibhausgasemissionen"],
     "V12-ehe_für_alle": ["ehe für alle", "homosexuell", "heirat", "hochzeit", "gleichgeschlechtlich"],
-    "V13-99_prozent": ["99 ", "99-", "99-prozent", "99 prozent", "kapital"],
-    "V14-covidgesetz": ["covid", "covidgesetz", "corona"],
+    "V13-99_prozent": ["99 ", "99-", "99-prozent", "99 prozent", "kapitalsteuer"],
+    "V14-covidgesetz": ["covid", "corona", "covidgesetz", "coronagesetz"],
     "V15-pflegeinitiative": ["pflege", "pflegeinitiative"],
     "V16-frontex": ["frontex", "küstenwache", "grenzwache"],
     "V17-transplantationsgesetz": ["transplantation", "transplantationsgesetz", "patientenverfügung"],
@@ -45,9 +46,20 @@ words_per_initiative = {
 }
 generic_keywords = ["initiative", "abstimmung", "gesetz"]
 
+# If specified, any of the following keywords must appear (OR search)
+filter_or = {
+    "V11-co2": ["initiative", "gesetz"],
+    "V15-pflegeinitiative": ["initiative", "gesetz"]
+}
+
+# If specified, all the following keywords must appear (AND search)
+filter_and = {
+    "V14-covidgesetz": ["gesetz"]
+}
+
 # Create combined list with all keywords
 all_keywords = generic_keywords
-for kw in words_per_initiative.values():
+for kw in search_keywords.values():
     all_keywords += kw
 
 # Read analysis file into array
@@ -64,7 +76,7 @@ with open(file_name, "r", encoding="utf-8", newline ='\n') as csv_file:
 match = 0
 counters = {}
 letter_collections = {}
-for key in words_per_initiative:
+for key in search_keywords:
     counters[key] = 0
     letter_collections[key] = []
 counters["no_category_found"] = 0
@@ -82,12 +94,22 @@ for row in csv_rows:
         continue
 
     found_category = False
-    for initiative, keywords in words_per_initiative.items():
+    for initiative, keywords in search_keywords.items():
+        
+        # Search
         if any(sub_str in row[0].lower() for sub_str in keywords):
-            letter_collections[initiative].append(row)
-            counters[initiative] += 1
-            found_category = True
-            #out.append([row[0], row[1]])
+            # Filter OR
+            if initiative not in filter_or or \
+                any(sub_str in row[0].lower() for sub_str in filter_or[initiative]):
+                # Filter AND
+                if initiative not in filter_and or \
+                    all(sub_str in row[0].lower() for sub_str in filter_and[initiative]):
+                    # Append letter to initiative-collection
+                    letter_collections[initiative].append(row)
+                    counters[initiative] += 1
+                    found_category = True
+                    #out.append([row[0], row[1]])
+            
     if found_category:
         match += 1
     else:
