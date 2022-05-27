@@ -1,6 +1,7 @@
 import csv
 
 # Define keywords
+"""
 words_per_initiative = {
     "V01": ["radiogebühr", "fernsehgebühr", "billag", "bilag", "srf", "serafe"],
     "V02": ["fairfood", "fair-food", "lebensmittel", "umweltfreundlich"],
@@ -20,6 +21,27 @@ words_per_initiative = {
     "V16": ["frontex", "küstenwache", "grenzwache"],
     "V17": ["transplantation", "organ", "patientenverfügung"],
     "V18": ["filmgesetz", "netflix"]
+}
+"""
+words_per_initiative = {
+    "V01-billag": ["fernsehgebühren", "billag", "bilag", "serafe"],
+    "V02-fairfood": ["fairfood", "fair-food"],
+    "V03-atsg": ["sozialversicherungsrecht", "atsg", "überwachung"],
+    "V04-zersiedelung": ["siedlungsentwicklung", "zersiedelung"],
+    "V05-kampfflugzeuge": ["kampfflugzeug", "kampflugzeug", "gripen"],
+    "V06-kinderbetreuungskosten": ["kinderbetreuungskosten", "kinderdrittbetreuungskosten", "kinderabzug"],
+    "V07-begrenzungsinitiative": ["zuwanderungsinitiative", "begrenzungsinitiative"],
+    "V08-kriegsmaterial": ["kriegsmaterial", "rüstungsfirma", "rüstungsfirmen", "waffenexport"],
+    "V09-konzernverantwortung": ["konzernverantwortung"],
+    "V10-verhüllungsverbot": ["verhüllungsverbot", "burka", "kopftuch", "kopftücher"],
+    "V11-co2": ["co2", "treibhausgas", "treibhausgasemissionen"],
+    "V12-ehe_für_alle": ["ehe für alle", "homosexuell", "heirat", "hochzeit", "gleichgeschlechtlich"],
+    "V13-99_prozent": ["99 ", "99-", "99-prozent", "99 prozent", "kapital"],
+    "V14-covidgesetz": ["covid", "covidgesetz", "corona"],
+    "V15-pflegeinitiative": ["pflege", "pflegeinitiative"],
+    "V16-frontex": ["frontex", "küstenwache", "grenzwache"],
+    "V17-transplantationsgesetz": ["transplantation", "transplantationsgesetz", "patientenverfügung"],
+    "V18-filmgesetz": ["filmgesetz", "netflix"]
 }
 generic_keywords = ["initiative", "abstimmung", "gesetz"]
 
@@ -83,4 +105,4 @@ for initiative, letters in letter_collections.items():
 print (f"Found {match} of total {len(csv_rows)} letters with keywords.")
 print (f"{counters['skipped']} letters did not even contain a generic keyword and were skipped")
 for initiative, letters in letter_collections.items():
-    print(f"{initiative}: {len(letters)}")
+    print(f"{initiative:<30}: {len(letters):>6}")
