@@ -4,11 +4,22 @@
 import os
 import csv
 import statistics
+import secrets
 
 source_dir = "cpi_split-author_wrong/"
 out_filename = "cpi_split-author_wrong/lz_statistics.csv"
 file_prefix = "comments_"
 file_suffix = ".csv"
+
+# Correction factors
+corr_factors = {
+    "lz_nof_letters": 2.08,
+    "lz_nof_writers": 2.02,
+    "lz_avg_len_letter": 0.47,
+    "lz_med_len_letter": 0.64,
+    "lz_avg_opinion": 0.48
+}
+do_correction = True
 
 # Select files to read
 initiatives = []
@@ -45,7 +56,8 @@ for initiative in initiatives:
         for row in csv_reader:
             rows.append(row)
             len_letters.append(len(row[0].strip().split(" ")))
-            authors.append(row[1])
+            # If no author is provided, generate random string for correct counting
+            authors.append(row[1] if row[1] else secrets.token_hex(5))
             # analysis = one of [positive, neutral, negative]
             # => We count the value of it
             analysis = row[2].strip("[]'")
@@ -56,10 +68,16 @@ for initiative in initiatives:
         if len(rows):
             lz_nof_letters = len(rows)
             lz_nof_writers = len(list(dict.fromkeys(authors)))
-            lz_avg_letters_writer = lz_nof_letters / lz_nof_writers if lz_nof_writers else 0
             lz_avg_len_letter = statistics.mean(len_letters)
             lz_med_len_letter = statistics.median(len_letters)
             lz_avg_opinion = statistics.mean(opinions)
+            if do_correction:
+                lz_nof_letters = round(lz_nof_letters * corr_factors["lz_nof_letters"])
+                lz_nof_writers = round(lz_nof_writers * corr_factors["lz_nof_writers"])
+                lz_avg_len_letter *= corr_factors["lz_avg_len_letter"]
+                lz_med_len_letter *= corr_factors["lz_med_len_letter"]
+                lz_avg_opinion *= corr_factors["lz_avg_opinion"]
+            lz_avg_letters_writer = lz_nof_letters / lz_nof_writers if lz_nof_writers else 0
         else:
             # Skip empty files
             lz_nof_letters = 0
