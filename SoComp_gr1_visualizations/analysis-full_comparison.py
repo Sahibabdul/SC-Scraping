@@ -22,6 +22,12 @@ params = [
     "yes_ads",
     "nof_mediareport",
     "tonality_mediareport",
+    "lz_nof_letters",
+    "lz_nof_writers",
+    "lz_avg_letters_writer",
+    "lz_avg_len_letter",
+    "lz_med_len_letter",
+    "lz_avg_opinion",
     "20m_nof_arcitles",
     "20m_nof_comments",
     "20m_avg_comments_article",
@@ -57,6 +63,11 @@ use_color = "pol_colors"
 # Define marker size and transparency
 marker_size = 18
 marker_alpha = 0.8
+
+# Specify output title and filename
+out_title = "SoComp - Group 1 - Full-Comparison, Colors = Political affilates"
+out_filename = "analysis-full_comparison-pol_colors.html"
+
 
 # ---------------------------------------- #
 # ***  Hands off the following code!!  *** #
@@ -95,7 +106,7 @@ for px in range(len(params)):
         glyphs.append(p)
 
 # make a grid and plot everything
-output_file(filename="analysis-full_comparison.html", title="SoComp - Group 1 - Full-Comparison")
+output_file(filename=out_filename, title=out_title)
 
 grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both", merge_tools=False)
 show(grid)
