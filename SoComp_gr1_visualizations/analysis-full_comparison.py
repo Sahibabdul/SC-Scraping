@@ -7,6 +7,7 @@ from bokeh.plotting import figure
 from bokeh.models import HoverTool
 from bokeh.layouts import gridplot
 from data_preparation import *
+from bokeh.io import export_png
 
 ############################################
 # *****    Define your parameters    ***** #
@@ -58,16 +59,15 @@ use_marker = "topic_markers"
 #    - topic_color    => Main topic of initiative
 #    - pol_colors     => Political affilate that supported initiative
 #    - verdict_color  => vote accepted/rejected
-use_color = "pol_colors"
+use_color = "verdict_color"
 
 # Define marker size and transparency
 marker_size = 18
 marker_alpha = 0.8
 
 # Specify output title and filename
-out_title = "SoComp - Group 1 - Full-Comparison, Colors = Political affilates"
-out_filename = "analysis-full_comparison-pol_colors.html"
-
+out_title = "SoComp - Group 1 - Full-Comparison, Colors = Verdicts"
+out_filename = "analysis-full_comparison-verdict_color"
 
 # ---------------------------------------- #
 # ***  Hands off the following code!!  *** #
@@ -106,7 +106,13 @@ for px in range(len(params)):
         glyphs.append(p)
 
 # make a grid and plot everything
-output_file(filename=out_filename, title=out_title)
+
+html_filename = out_filename + ".html"
+png_filename = out_filename + ".png"
+
+output_file(filename=html_filename, title=out_title)
 
 grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both", merge_tools=False)
+#export_png(grid, filename=png_filename)
+
 show(grid)
