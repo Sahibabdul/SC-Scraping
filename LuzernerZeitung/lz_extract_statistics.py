@@ -46,6 +46,12 @@ for initiative in initiatives:
             "neutral": 0,
             "negative": -1
         }
+        opinion_sums = {
+            "positive": 0,
+            "neutral": 0,
+            "negative": 0
+        }
+
 
         # Read file into array and collect information
         # The csv has 3 columns:
@@ -63,6 +69,7 @@ for initiative in initiatives:
             analysis = row[2].strip("[]'")
             if analysis in opinion_values:
                 opinions.append(opinion_values[analysis])
+                opinion_sums[analysis] += 1
         
         # Ok, collection is done. Now for some statistics...
         if len(rows):
@@ -71,12 +78,18 @@ for initiative in initiatives:
             lz_avg_len_letter = statistics.mean(len_letters)
             lz_med_len_letter = statistics.median(len_letters)
             lz_avg_opinion = statistics.mean(opinions)
+            lz_opinion_pos = opinion_sums["positive"]
+            lz_opinion_neutral = opinion_sums["neutral"]
+            lz_opinion_neg = opinion_sums["negative"]
             if do_correction:
                 lz_nof_letters = round(lz_nof_letters * corr_factors["lz_nof_letters"])
                 lz_nof_writers = round(lz_nof_writers * corr_factors["lz_nof_writers"])
                 lz_avg_len_letter *= corr_factors["lz_avg_len_letter"]
                 lz_med_len_letter *= corr_factors["lz_med_len_letter"]
                 lz_avg_opinion *= corr_factors["lz_avg_opinion"]
+                lz_opinion_pos = round(lz_opinion_pos * corr_factors["lz_nof_letters"])
+                lz_opinion_neutral = round(lz_opinion_neutral * corr_factors["lz_nof_letters"])
+                lz_opinion_neg = round(lz_opinion_neg * corr_factors["lz_nof_letters"])
             lz_avg_letters_writer = lz_nof_letters / lz_nof_writers if lz_nof_writers else 0
         else:
             # Skip empty files
@@ -86,7 +99,10 @@ for initiative in initiatives:
             lz_avg_len_letter = 0
             lz_med_len_letter = 0
             lz_avg_opinion = 0
-        
+            lz_opinion_pos = 0
+            lz_opinion_neutral = 0
+            lz_opinion_neg = 0
+
         # Append result row to statistics
         lz_statistics.append([
             initiative.lstrip(file_prefix).rstrip(file_suffix),
@@ -95,7 +111,10 @@ for initiative in initiatives:
             lz_avg_letters_writer,
             lz_avg_len_letter,
             lz_med_len_letter,
-            lz_avg_opinion
+            lz_avg_opinion,
+            lz_opinion_pos,
+            lz_opinion_neutral,
+            lz_opinion_neg
         ])
 
 # We have read everything into the array "lz_statistics".
@@ -110,7 +129,10 @@ with open(out_filename, 'w') as file:
         "lz_avg_letters_writer",
         "lz_avg_len_letter",
         "lz_med_len_letter",
-        "lz_avg_opinion"
+        "lz_avg_opinion",
+        "lz_opinion_pos",
+        "lz_opinion_neutral",
+        "lz_opinion_neg"
     ])
     for row in lz_statistics:
         csv_file.writerow(row)
