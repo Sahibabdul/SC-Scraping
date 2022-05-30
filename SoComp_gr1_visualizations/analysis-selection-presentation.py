@@ -82,6 +82,26 @@ plots = [
         "x_axis": "lz_avg_len_letter",
         "y_axis": "20m_avg_len_comment"
     },
+    {
+        "title": "Compare 'YES' ads to tonality in media reports",
+        "x_axis": "yes_ads",
+        "y_axis": "tonality_mediareport",
+        "use_color": "pol_colors"
+    },
+    {
+        "title": "Compare topic to reader's letters, parties and outcome",
+        "x_axis": "topic_main",
+        "y_axis": "lz_nof_letters",
+        "use_marker": "verdict_markers",
+        "use_color": "pol_colors"
+    },
+    {
+        "title": "Compare topic to comments, parties and outcome",
+        "x_axis": "topic_main",
+        "y_axis": "20m_nof_comments",
+        "use_marker": "verdict_markers",
+        "use_color": "pol_colors"
+    },
 ]
 
 # Define attribute for marker mapping
@@ -142,5 +162,7 @@ output_file(filename="analysis-selection-presentation.html", title="SoComp - Gro
 grid = gridplot(glyphs, ncols=3, sizing_mode="stretch_both", merge_tools=False)
 title = Div(text="""<h1>Relation between Reader’s Letters, Online Comments & Voting Outcomes.</h1>""",
             height=100)
-show(column([title, grid], sizing_mode="stretch_both"))
+show(column([title, grid],
+            sizing_mode="stretch_both",
+        ))
 #show(grid)
