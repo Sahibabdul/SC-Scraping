@@ -5,9 +5,9 @@
 from bokeh.io import output_file, show
 from bokeh.plotting import figure
 from bokeh.models import HoverTool
-from bokeh.layouts import gridplot
+from bokeh.layouts import gridplot, column
 from data_preparation import *
-from bokeh.io import export_png
+from bokeh.models import Div
 
 ############################################
 # *****    Define your parameters    ***** #
@@ -59,15 +59,22 @@ use_marker = "topic_markers"
 #    - topic_color    => Main topic of initiative
 #    - pol_colors     => Political affilate that supported initiative
 #    - verdict_color  => vote accepted/rejected
-use_color = "verdict_color"
+use_color = "pol_colors"
 
 # Define marker size and transparency
 marker_size = 18
 marker_alpha = 0.8
 
 # Specify output title and filename
-out_title = "SoComp - Group 1 - Full-Comparison, Colors = Verdicts"
-out_filename = "analysis-full_comparison-verdict_color"
+out_title = "SoComp - Group 1 - Full-Comparison, Colors = Political affilates"
+out_filename = "analysis-full_comparison-pol_colors"
+title = Div(text="""<h1>SoComp - Group 1 – Full-Comparison, Colors = Political affilates</h1>""",
+            height=100)
+
+#out_title = "SoComp - Group 1 - Full-Comparison, Colors = Verdicts"
+#out_filename = "analysis-full_comparison-verdict_color"
+#title = Div(text="""<h1>SoComp - Group 1 – Full-Comparison, Colors = Verdicts</h1>""",
+#            height=100)
 
 # ---------------------------------------- #
 # ***  Hands off the following code!!  *** #
@@ -113,6 +120,8 @@ png_filename = out_filename + ".png"
 output_file(filename=html_filename, title=out_title)
 
 grid = gridplot(glyphs, ncols=4, sizing_mode="stretch_both", merge_tools=False)
-#export_png(grid, filename=png_filename)
 
-show(grid)
+show(column([title, grid],
+            sizing_mode="stretch_both",
+        ))
+#show(grid)

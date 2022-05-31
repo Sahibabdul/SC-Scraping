@@ -52,6 +52,7 @@ parameter_dict = {
 }
 
 # Specify toolbar
+# don't use SaveTool()
 plot_tools = [
     UndoTool(),
     RedoTool(),
@@ -59,7 +60,6 @@ plot_tools = [
     PanTool(),
     BoxZoomTool(),
     WheelZoomTool(),
-    SaveTool()
 ]
 
 # Import and prepare data
